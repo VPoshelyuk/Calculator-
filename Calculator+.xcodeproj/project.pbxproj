@@ -12,8 +12,6 @@
 		E77AB82E1DB3491B004586CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77AB82C1DB3491B004586CD /* Main.storyboard */; };
 		E77AB8301DB3491B004586CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77AB82F1DB3491B004586CD /* Assets.xcassets */; };
 		E77AB8331DB3491B004586CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77AB8311DB3491B004586CD /* LaunchScreen.storyboard */; };
-		E77AB83E1DB3491B004586CD /* Calculator_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AB83D1DB3491B004586CD /* Calculator_Tests.swift */; };
-		E77AB8491DB3491B004586CD /* Calculator_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77AB8481DB3491B004586CD /* Calculator_UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		E77AB8321DB3491B004586CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E77AB8341DB3491B004586CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77AB8391DB3491B004586CD /* Calculator+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E77AB83D1DB3491B004586CD /* Calculator_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_Tests.swift; sourceTree = "<group>"; };
-		E77AB83F1DB3491B004586CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77AB8441DB3491B004586CD /* Calculator+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E77AB8481DB3491B004586CD /* Calculator_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_UITests.swift; sourceTree = "<group>"; };
-		E77AB84A1DB3491B004586CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				E77AB8271DB3491B004586CD /* Calculator+ */,
-				E77AB83C1DB3491B004586CD /* Calculator+Tests */,
-				E77AB8471DB3491B004586CD /* Calculator+UITests */,
 				E77AB8261DB3491B004586CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				E77AB8341DB3491B004586CD /* Info.plist */,
 			);
 			path = "Calculator+";
-			sourceTree = "<group>";
-		};
-		E77AB83C1DB3491B004586CD /* Calculator+Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E77AB83D1DB3491B004586CD /* Calculator_Tests.swift */,
-				E77AB83F1DB3491B004586CD /* Info.plist */,
-			);
-			path = "Calculator+Tests";
-			sourceTree = "<group>";
-		};
-		E77AB8471DB3491B004586CD /* Calculator+UITests */ = {
-			isa = PBXGroup;
-			children = (
-				E77AB8481DB3491B004586CD /* Calculator_UITests.swift */,
-				E77AB84A1DB3491B004586CD /* Info.plist */,
-			);
-			path = "Calculator+UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77AB83E1DB3491B004586CD /* Calculator_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77AB8491DB3491B004586CD /* Calculator_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
